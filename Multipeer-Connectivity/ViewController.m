@@ -9,6 +9,10 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *guessTextField;
+@property (strong, nonatomic) IBOutlet UITextView *textViewHistory;
+@property (strong, nonatomic) IBOutlet UIButton *sendButton;
+@property (strong, nonatomic) IBOutlet UIButton *cancelButton;
 
 @end
 
@@ -20,6 +24,20 @@
 
 }
 
+- (IBAction)onStartGameButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)onSendButtonPressed:(id)sender
+{
+    
+}
+
+- (IBAction)onCancelButtonPressed:(id)sender
+{
+    
+}
 
 
 

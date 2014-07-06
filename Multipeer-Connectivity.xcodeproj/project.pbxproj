@@ -22,6 +22,7 @@
 		412CDA5B1969C91900306DB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412CDA591969C91900306DB9 /* InfoPlist.strings */; };
 		412CDA5D1969C91900306DB9 /* Multipeer_ConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412CDA5C1969C91900306DB9 /* Multipeer_ConnectivityTests.m */; };
 		412CDA681969C9A400306DB9 /* MPCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 412CDA671969C9A400306DB9 /* MPCHandler.m */; };
+		412CDA6B1969D19D00306DB9 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412CDA6A1969D19D00306DB9 /* OptionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		412CDA5C1969C91900306DB9 /* Multipeer_ConnectivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multipeer_ConnectivityTests.m; sourceTree = "<group>"; };
 		412CDA661969C9A400306DB9 /* MPCHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPCHandler.h; path = ../MPCHandler.h; sourceTree = "<group>"; };
 		412CDA671969C9A400306DB9 /* MPCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPCHandler.m; path = ../MPCHandler.m; sourceTree = "<group>"; };
+		412CDA691969D19D00306DB9 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		412CDA6A1969D19D00306DB9 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				412CDA431969C91900306DB9 /* Main.storyboard */,
 				412CDA461969C91900306DB9 /* ViewController.h */,
 				412CDA471969C91900306DB9 /* ViewController.m */,
+				412CDA691969D19D00306DB9 /* OptionsViewController.h */,
+				412CDA6A1969D19D00306DB9 /* OptionsViewController.m */,
 				412CDA491969C91900306DB9 /* Images.xcassets */,
 				412CDA381969C91900306DB9 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				412CDA481969C91900306DB9 /* ViewController.m in Sources */,
 				412CDA681969C9A400306DB9 /* MPCHandler.m in Sources */,
+				412CDA6B1969D19D00306DB9 /* OptionsViewController.m in Sources */,
 				412CDA421969C91900306DB9 /* AppDelegate.m in Sources */,
 				412CDA3E1969C91900306DB9 /* main.m in Sources */,
 			);
@@ -462,6 +468,7 @@
 				412CDA621969C91900306DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		412CDA631969C91900306DB9 /* Build configuration list for PBXNativeTarget "Multipeer-ConnectivityTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				412CDA651969C91900306DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
