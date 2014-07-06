@@ -21,6 +21,7 @@
 		412CDA531969C91900306DB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412CDA351969C91900306DB9 /* UIKit.framework */; };
 		412CDA5B1969C91900306DB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412CDA591969C91900306DB9 /* InfoPlist.strings */; };
 		412CDA5D1969C91900306DB9 /* Multipeer_ConnectivityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412CDA5C1969C91900306DB9 /* Multipeer_ConnectivityTests.m */; };
+		412CDA681969C9A400306DB9 /* MPCHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 412CDA671969C9A400306DB9 /* MPCHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		412CDA581969C91900306DB9 /* Multipeer-ConnectivityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Multipeer-ConnectivityTests-Info.plist"; sourceTree = "<group>"; };
 		412CDA5A1969C91900306DB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		412CDA5C1969C91900306DB9 /* Multipeer_ConnectivityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Multipeer_ConnectivityTests.m; sourceTree = "<group>"; };
+		412CDA661969C9A400306DB9 /* MPCHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MPCHandler.h; path = ../MPCHandler.h; sourceTree = "<group>"; };
+		412CDA671969C9A400306DB9 /* MPCHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MPCHandler.m; path = ../MPCHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				412CDA401969C91900306DB9 /* AppDelegate.h */,
 				412CDA411969C91900306DB9 /* AppDelegate.m */,
+				412CDA661969C9A400306DB9 /* MPCHandler.h */,
+				412CDA671969C9A400306DB9 /* MPCHandler.m */,
 				412CDA431969C91900306DB9 /* Main.storyboard */,
 				412CDA461969C91900306DB9 /* ViewController.h */,
 				412CDA471969C91900306DB9 /* ViewController.m */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				412CDA481969C91900306DB9 /* ViewController.m in Sources */,
+				412CDA681969C9A400306DB9 /* MPCHandler.m in Sources */,
 				412CDA421969C91900306DB9 /* AppDelegate.m in Sources */,
 				412CDA3E1969C91900306DB9 /* main.m in Sources */,
 			);
